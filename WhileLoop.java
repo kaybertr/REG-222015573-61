@@ -1,11 +1,17 @@
- public class WhileLoop {
-    public static void main(String[] args) throws Exception {
+public class WhileLoop {
+
+  public static void main(String[] args) throws Exception {
+
     int i = 1;
     
+    // Loop while i is less than or equal to 5
     while(i <= 5) {
-      System.out.println(i);
-      i++;
-    }
     
+      // Print the value of i  
+      System.out.println(i); 
+      
+      // Increment i after each iteration
+      i++; 
     }
+  }
 }
